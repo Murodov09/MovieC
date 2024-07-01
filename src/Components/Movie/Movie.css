@@ -1,0 +1,23 @@
+
+
+.movie_kit {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.hero_text{
+font-family: 'Poppins', serif; 
+font-size: 40px;  
+margin: auto;
+padding: 30px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+

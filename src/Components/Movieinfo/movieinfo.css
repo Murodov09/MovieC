@@ -1,0 +1,60 @@
+.movieinfo_div{
+    width: 100%;
+    height: 100vh;
+     flex: 1;
+
+}
+
+.back_div{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+.movie_img{
+    width: 200px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: 100px;
+    
+}
+
+.back_img{
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+}
+
+
+.movie_title{
+margin-left: 400px;
+margin-top: -250px;
+font-size: 40px;
+font-weight: 700;
+color: black;
+}
+.movie_about{
+    width: 60%;
+    margin-left: 400px;
+    margin-top: 90px;
+    
+}
+.movie_main_info{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+     margin-left: 400px;
+
+}
+.movie_main_info span{
+    width: 1px;
+    height: 25px;
+    background: wheat;
+}
+
+.favourite_btn{
+    margin-top: 50px;
+       margin-left: 400px;
+}

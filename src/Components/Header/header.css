@@ -1,0 +1,79 @@
+.carousel {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.slide {
+  display: none;
+  transition: 0.5s ease;
+}
+
+.slide.active {
+  display: block;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  z-index: 10;
+}
+#slide {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.carousel-control.prev {
+  left: 0;
+}
+
+.carousel-control.next {
+  right: 0;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+}
+
+#slide h1 {
+  color: white; /* Matn rangi */
+  font-size: 40px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+#slide p {
+  color: white; /* Matn rangi */
+  font-size: 18px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+#slide div {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 30px 300px 30px 200px;
+  gap: 30px;
+}
+
+
